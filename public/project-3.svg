@@ -1,0 +1,21 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f687b3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e85a8a;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="dots3" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="2" fill="#ffffff" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <rect width="500" height="300" fill="url(#grad3)"/>
+  <rect width="500" height="300" fill="url(#dots3)"/>
+  
+  <g opacity="0.3">
+    <path d="M 120 120 L 160 80 L 200 120 Z" fill="#ffffff"/>
+    <path d="M 300 100 L 380 100 L 350 180 Z" fill="#ffffff"/>
+  </g>
+  
+  <text x="250" y="150" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle" opacity="0.8">Expense AI</text>
+</svg>
